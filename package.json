@@ -1,0 +1,20 @@
+{
+  "name": "journl",
+  "version": "1.0.0",
+  "description": "A beautiful logger that has a combination of both simple and advanced features.",
+  "repository": "https://github.com/htbrown/journl",
+  "main": "index.js",
+  "keywords": [
+    "log",
+    "logger",
+    "logging",
+    "logs",
+    "journl",
+    "journal"
+  ],
+  "author": "HTBrown (htbrown.com)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
