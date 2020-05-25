@@ -5,8 +5,17 @@ class Journl {
     constructor(options) {
         this.options = options;
 
-        for (let option in options) {
-            options[option] = options[option] || defaultOptions[option]
+        let o;
+        for (o in defaultOptions) {
+            if (!this.options[o]) this.options[o] = defaultOptions[o]
+        }
+
+        for (o in defaultOptions.colors) {
+            if (!this.options.colors[o]) this.options.colors[o] = defaultOptions.colors[o]
+        }
+
+        for (o in defaultOptions.colors.types) {
+            if (!this.options.colors.types[o]) this.options.colors.types[o] = defaultOptions.colors.types[o];
         }
     }
 
