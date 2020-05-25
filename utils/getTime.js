@@ -1,4 +1,4 @@
-getTime = () => {
+const getTime = () => {
     let now = new Date();
     let date = new Date(now.getTime() - (now.getTimezoneOffset() * 60000))
 
