@@ -1,6 +1,6 @@
 {
   "name": "journl",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A beautiful logger that has a combination of both simple and advanced features.",
   "repository": "https://github.com/htbrown/journl",
   "main": "index.js",
