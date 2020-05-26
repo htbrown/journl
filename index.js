@@ -3,6 +3,8 @@ const defaultOptions = require('./utils/defaultOptions'),
 
 class Journl {
     constructor(options) {
+        if (!options) options = defaultOptions;
+
         this.options = options;
 
         let o;
